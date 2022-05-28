@@ -1,0 +1,17 @@
+{
+  "name": "com.ranter.uitools",
+  "version": "0.0.1",
+  "displayName": "RanterUITools",
+  "description": "This is package with some basic UI tools for unity.",
+  "unity": "2020.1",
+  "unityRelease": "0b5",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "keywords": [],
+  "author": {
+    "name": "Ranter",
+    "email": "7ranter7@gmail.com",
+    "url": ""
+  }
+}
