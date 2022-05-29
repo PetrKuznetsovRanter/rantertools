@@ -86,7 +86,7 @@ namespace RanterTools.DPI
         }
 
 #if UNITY_EDITOR
-        [MenuItem("RanterTools/UI/DPI/ForceUpdate")]
+        [MenuItem("RanterTools/UI/DPI/ForceUpdateImages")]
         private static void UpdateAll()
         {
             foreach (var p in All)

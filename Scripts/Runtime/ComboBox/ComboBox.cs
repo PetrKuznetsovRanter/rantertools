@@ -184,8 +184,7 @@ namespace RanterTools.ComboBox
             }
             catch
             {
-                //TODO: Replace to custom logger
-                Debug.LogError("Something is setup incorrectly with the dropdown list component causing a Null Reference Exception");
+                ToolsDebug.LogError("Something is setup incorrectly with the dropdown list component causing a Null Reference Exception");
                 success = false;
             }
 

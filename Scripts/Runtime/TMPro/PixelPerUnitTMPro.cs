@@ -93,7 +93,7 @@ namespace RanterTools.TMPro
         private TMP_InputField InputField { get; set; }
 
 #if UNITY_EDITOR
-        [MenuItem("RanterTools/UI/DPI/ForceUpdate")]
+        [MenuItem("RanterTools/UI/DPI/ForceUpdateTMP")]
         private static void UpdateAll()
         {
             foreach (var p in All)

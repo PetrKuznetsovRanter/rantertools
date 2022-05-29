@@ -68,8 +68,7 @@ namespace RanterTools.Editor
 
             if (!States.ContainsKey(path))
             {
-                //TODO: Replace to custom logger
-                Debug.Log($"RectTransformExtension can't revert anchors. {path}");
+                ToolsDebug.Log($"RectTransformExtension can't revert anchors. {path}");
             }
             else
             {
